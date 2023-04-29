@@ -22,7 +22,7 @@ mongoose
 // Middleware
 app.use(express.json());
 app.use(cors({
-  origin: ['http://localhost:4200']
+  origin: ['https://imagescloudinary.web.app/']
 }));
 
 // Route
